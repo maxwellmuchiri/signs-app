@@ -53,18 +53,18 @@ const Navbar = ({ loggedIn, logOut, cartItems }) => {
     <nav>
       <div>
         <img
-          src="https://scontent.fnbo1-1.fna.fbcdn.net/v/t39.30808-6/307318806_578942147355321_7352939837138745643_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFQPfQacuQ-J45j2jN80P5FCalHI3fXk50JqUcjd9eTnULD-JhofAg_cRwtQIYiHS5iY-DGzv5Itn_0UpQebICF&_nc_ohc=Z58acDrUBSkAX96iPMh&_nc_ht=scontent.fnbo1-1.fna&oh=00_AfAOooQlfvTBms_IsCh9judIP7YNNf384tWglIzqjOkqHQ&oe=6465DCD9"
+          src="http://signfirstmedia.co.ke/wp-content/uploads/Signfirst-Media-Logo-s.png"
           alt="Seedling Logo"
         />
-        <Link to="/">Sagana Seedlings</Link>
+        <Link to="/">Signs Company</Link>
       </div>
       <div>
         <select>
-          <option>Fruit seedlings</option>
-          <option>Flower seedlings</option>
-          <option>Exotic tree seedlings</option>
-          <option>Indigenous</option>
-          <option>Seedling Type 5</option>
+          <option>2D & 3D signs</option>
+          <option>Road Signs</option>
+          <option>Laser cuts</option>
+          <option>CNC cuts</option>
+          <option>Paylons</option>
         </select>
 
         {loggedIn ? (
