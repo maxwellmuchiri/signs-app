@@ -53,10 +53,10 @@ const Navbar = ({ loggedIn, logOut, cartItems }) => {
     <nav>
       <div>
         <img
-          src="http://signfirstmedia.co.ke/wp-content/uploads/Signfirst-Media-Logo-s.png"
+          src="https://scontent.febb3-1.fna.fbcdn.net/v/t39.30808-6/368009851_613450754242703_2035892794540794207_n.jpg?stp=dst-jpg_s168x128&_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_ohc=lFavFjW_WFIAX87lDZg&_nc_ht=scontent.febb3-1.fna&oh=00_AfDqi-sgrCmsLD8SFsqLvuMG2L9ISKkLUw2f_o_MmNN3mQ&oe=64E32EC9"
           alt="Seedling Logo"
         />
-        <Link to="/">Signs Company</Link>
+        <Link to="/">ELIM SIGNS</Link>
       </div>
       <div>
         <select>
@@ -64,7 +64,7 @@ const Navbar = ({ loggedIn, logOut, cartItems }) => {
           <option>Road Signs</option>
           <option>Laser cuts</option>
           <option>CNC cuts</option>
-          <option>Paylons</option>
+          <option>Paylons</option>''
         </select>
 
         {loggedIn ? (

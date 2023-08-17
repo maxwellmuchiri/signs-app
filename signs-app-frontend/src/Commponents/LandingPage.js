@@ -5,7 +5,7 @@ function LandingPage() {
   return (
     <div className="landing-page">
       <div className="jumbotron">
-        <h1>Welcome to Signs Company</h1>
+        <h1>Welcome to ELIM SIGNS</h1>
         <p>Elevating Your Spaces, One Sign at a Time. Discover the Artistry of Communication Through Our Unique Signage Creations. Your Vision, Our Craftsmanship – Uniting Design and Quality.</p>
         <a href="/cart" className="btn btn-primary">Shop Now</a>
       </div>
